@@ -4,6 +4,7 @@ import MainLayout from '@/layouts/MainLayout.vue'
 
 <template>
   <MainLayout>
-    <h1>Homeview</h1>
+
+  
   </MainLayout>
 </template>

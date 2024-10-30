@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import MainLayout from '@/layouts/MainLayout.vue'
+import AboutLayout from '@/layouts/AboutLayout.vue';
+
+
+
 </script>
 
 <template>
-  <MainLayout>
-    <h1>About view</h1>
-  </MainLayout>
+  <AboutLayout>
+    
+  </AboutLayout>
 </template>

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import HeaderContent from '@/components/HeaderContent.vue'
 import FooterContent from '@/components/FooterContent.vue'
-import TengahContent from '@/components/TengahContent.vue'
+import BlogSection from '@/components/BlogSection.vue';
+
 
 
 
@@ -10,7 +11,8 @@ import TengahContent from '@/components/TengahContent.vue'
 <template>
   <HeaderContent/>
   <main>
-    <TengahContent/>
+    <BlogSection/>
+
     <slot></slot>
   </main>
   <FooterContent/>
