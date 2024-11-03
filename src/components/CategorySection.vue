@@ -18,10 +18,10 @@
         <div class="flex gap-5 max-md:flex-col">
           <aside class="flex flex-col w-[24%] max-md:ml-0 max-md:w-full">
             <div class="flex flex-col grow max-md:mt-8">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/16d1ec1b84f8dba41f05e790ec58853d56392fea1ea4ced7a737c6658dff697a?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain w-full aspect-[0.94]" />
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/16d1ec1b84f8dba41f05e790ec58853d56392fea1ea4ced7a737c6658dff697a?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-8 w-full aspect-[0.94]" />
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/16d1ec1b84f8dba41f05e790ec58853d56392fea1ea4ced7a737c6658dff697a?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-8 w-full aspect-[0.94] max-md:mr-0.5" />
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/16d1ec1b84f8dba41f05e790ec58853d56392fea1ea4ced7a737c6658dff697a?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-8 w-full aspect-[0.94] max-md:mr-0.5" />
+              <img loading="lazy" src="../assets/images/misc/bisnis.png" alt="" class="object-contain w-full aspect-[0.94]" />
+              <img loading="lazy" src="../assets/images/misc/bisnis.png" alt="" class="object-contain mt-8 w-full aspect-[0.94]" />
+              <img loading="lazy" src="../assets/images/misc/bisnis.png" alt="" class="object-contain mt-8 w-full aspect-[0.94] max-md:mr-0.5" />
+              <img loading="lazy" src="../assets/images/misc/bisnis.png" alt="" class="object-contain mt-8 w-full aspect-[0.94] max-md:mr-0.5" />
             </div>
           </aside>
           <div class="flex flex-col ml-5 w-[76%] max-md:ml-0 max-md:w-full">

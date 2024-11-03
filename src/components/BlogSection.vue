@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6b092768f7a218d448245a26948cf0fbc11baf915e08e348841ee64aa0cd10f?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Featured post illustration" class="object-contain grow w-full aspect-[1.43] max-md:mt-10 max-md:max-w-full" />
+        <img loading="lazy" src="../assets/images/misc/blog11.png" alt="Featured post illustration" class="object-contain grow w-full aspect-[1.43] max-md:mt-10 max-md:max-w-full" />
       </div>
     </div>
   </section>
@@ -29,11 +29,11 @@
       <div class="flex gap-5 max-md:flex-col">
         <div class="flex flex-col w-[44%] max-md:ml-0 max-md:w-full">
           <div class="flex flex-col grow max-md:mt-8 max-md:max-w-full">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dafc832692f064b1e9cede46d64fbd4e375a21b3a6424516083c63b2bfa3e204?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 1" class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a6ea48ae522c3bc971402c03dc63d0cb1b536800beb648e1f0e91b082b63464?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 2" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4abc41bd57d332af1d45d35539eb441fb43718ab1e3a6f58246a80a357f5bfe0?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 3" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a31a4ef91fce621e30583ae54aa725b36189090048c6493b3ada6dc32544d50e?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 4" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dafc832692f064b1e9cede46d64fbd4e375a21b3a6424516083c63b2bfa3e204?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 5" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="../assets/images/misc/blog22.png" alt="Blog post image 1" class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
+            <img loading="lazy" src="../assets/images/misc/blog33.png" alt="Blog post image 2" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="../assets/images/misc/blog4.png" alt="Blog post image 3" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="../assets/images/misc/blog5.png" alt="Blog post image 4" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="../assets/images/misc/blog22.png" alt="Blog post image 5" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
           </div>
         </div>
         <div class="flex flex-col ml-5 w-[56%] max-md:ml-0 max-md:w-full">

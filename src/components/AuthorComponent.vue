@@ -5,7 +5,7 @@
         <div class="max-w-full w-[952px]">
           <div class="flex gap-5 max-md:flex-col">
             <div class="flex flex-col w-[27%] max-md:ml-0 max-md:w-full">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a32d462cceceb3224a96c6cb69a80c1af309687f394da6691c37dc18dac01173?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Author's profile picture" class="object-contain grow w-full aspect-[0.85] max-md:mt-8" />
+              <img loading="lazy" src="../assets/images/misc/author.png" alt="Author's profile picture" class="object-contain grow w-full aspect-[0.85] max-md:mt-8" />
             </div>
             <div class="flex flex-col ml-5 w-[73%] max-md:ml-0 max-md:w-full">
               <div class="flex flex-col max-md:mt-9 max-md:max-w-full">
@@ -31,8 +31,8 @@
         <div class="flex gap-5 max-md:flex-col">
           <div class="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
             <div class="flex flex-col grow max-md:mt-8">
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/063e683dcfd2627e2e12e5b8e8f2938873e1fb36c6628e6b054c6bf1d7c4465c?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 1" class="object-contain w-full aspect-[1.29]" />
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b86110c782542f99d213ae484a5155d5c646079dc9465d48342d41a1f2b7b1ba?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 2" class="object-contain mt-16 w-full aspect-[1.29] max-md:mt-10" />
+              <img loading="lazy" src="../assets/images/misc/author1.png" alt="Blog post image 1" class="object-contain w-full aspect-[1.29]" />
+              <img loading="lazy" src="../assets/images/misc/author2.png" alt="Blog post image 2" class="object-contain mt-16 w-full aspect-[1.29]" />
             </div>
           </div>
           <div class="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full">
