@@ -166,91 +166,93 @@
     </section>
 
     <h2  class="self-center mt-24 text-4xl font-bold tracking-tighter leading-none text-gray-800 max-md:mt-10">List of Authors</h2>
+    <main class="flex flex-col px-20 w-full max-md:px-5 max-md:max-w-full">
+      <section class="self-stretch mt-12 max-md:mt-10 max-md:max-w-full">
+  <div class="flex gap-5 max-md:flex-col">
+    <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang1.png" alt="Floyd Miles profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800">Floyd Miles</h3>
+    <p class="self-stretch text-sm text-center text-zinc-500">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ebc67470106e9d6ddb8d97607421331f6f354cb1b1e23797f2a80557f0a32123?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-    <section class="self-stretch mt-12 max-md:mt-10 max-md:max-w-full">
-      <div class="flex gap-5 max-md:flex-col">
-        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang1.png" alt="Floyd Miles profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800">Floyd Miles</h3>
-            <p  class="self-stretch text-sm text-center text-zinc-500">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ebc67470106e9d6ddb8d97607421331f6f354cb1b1e23797f2a80557f0a32123?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+<article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang2.png" alt="Dianne Russell profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800">Dianne Russell</h3>
+    <p class="text-sm text-center text-zinc-500 max-md:mx-1">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c737a15e8641608f3bbb864c62419ea81bfd3f5952df9b3d45d82271639e19e3?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-        <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow px-14 py-10 w-full leading-none bg-orange-50 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang2.png" alt="Dianne Russell profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800">Dianne Russell</h3>
-            <p  class="text-sm text-center text-zinc-500 max-md:mx-1">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c737a15e8641608f3bbb864c62419ea81bfd3f5952df9b3d45d82271639e19e3?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+<article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang3.png" alt="Jenny Wilson profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800 max-md:mx-2">Jenny Wilson</h3>
+    <p class="text-sm text-center text-zinc-500">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc55ab028047697ab5b90532579bc7397e1c0e81d75d597937d10d08edea8e56?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-        <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang3.png" alt="Jenny Wilson profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800 max-md:mx-2">Jenny Wilson</h3>
-            <p  class="text-sm text-center text-zinc-500">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc55ab028047697ab5b90532579bc7397e1c0e81d75d597937d10d08edea8e56?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+<article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang4.png" alt="Leslie Alexander profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="self-center mt-5 text-3xl font-bold tracking-tighter text-gray-800">Leslie Alexander</h3>
+    <p class="text-sm text-center text-zinc-500">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c7e43556de8acc2afaa42d9cd1bd37a1c091eae64b9c97eb96c92b5aecc228?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-        <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang4.png" alt="Leslie Alexander profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="self-center mt-5 text-3xl font-bold tracking-tighter text-gray-800">Leslie Alexander</h3>
-            <p  class="text-sm text-center text-zinc-500">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c7e43556de8acc2afaa42d9cd1bd37a1c091eae64b9c97eb96c92b5aecc228?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
-      </div>
+  </div>
 
-      <div class="flex gap-5 max-md:flex-col mt-10">
-        <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang5.png" alt="Floyd Miles profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800">Guy Hawkins</h3>
-            <p  class="self-stretch text-sm text-center text-zinc-500">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ebc67470106e9d6ddb8d97607421331f6f354cb1b1e23797f2a80557f0a32123?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+  <div class="flex gap-5 max-md:flex-col mt-10">
+    <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang5.png" alt="Floyd Miles profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800">Guy Hawkins</h3>
+    <p class="self-stretch text-sm text-center text-zinc-500">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ebc67470106e9d6ddb8d97607421331f6f354cb1b1e23797f2a80557f0a32123?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-        <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow px-14 py-10 w-full leading-none bg-orange-50 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang6.png" alt="Dianne Russell profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800">Eleanor Pena</h3>
-            <p  class="text-sm text-center text-zinc-500 max-md:mx-1">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c737a15e8641608f3bbb864c62419ea81bfd3f5952df9b3d45d82271639e19e3?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+<article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang6.png" alt="Dianne Russell profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800">Eleanor Pena</h3>
+    <p class="text-sm text-center text-zinc-500 max-md:mx-1">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c737a15e8641608f3bbb864c62419ea81bfd3f5952df9b3d45d82271639e19e3?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-        <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang7.png" alt="Jenny Wilson profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800 max-md:mx-2">Robert Fox</h3>
-            <p  class="text-sm text-center text-zinc-500">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc55ab028047697ab5b90532579bc7397e1c0e81d75d597937d10d08edea8e56?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
+<article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang7.png" alt="Jenny Wilson profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800 max-md:mx-2">Robert Fox</h3>
+    <p class="text-sm text-center text-zinc-500">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc55ab028047697ab5b90532579bc7397e1c0e81d75d597937d10d08edea8e56?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
 
-        <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
-            <img loading="lazy" src="../assets/images/misc/orang8.png" alt="Leslie Alexander profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
-            <h3 class="self-stretch mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800">Jacob Jones</h3>
-            <p  class="text-sm text-center text-zinc-500">Content Writer @Company</p>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c7e43556de8acc2afaa42d9cd1bd37a1c091eae64b9c97eb96c92b5aecc228?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
-        </article>
-      </div>
+<article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+  <router-link to="/author" class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
+    <img loading="lazy" src="../assets/images/misc/orang8.png" alt="Leslie Alexander profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
+    <h3 class="self-stretch mt-5 text-3xl font-bold text-center tracking-tighter text-gray-800">Jacob Jones</h3>
+    <p class="text-sm text-center text-zinc-500">Content Writer @Company</p>
+    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c7e43556de8acc2afaa42d9cd1bd37a1c091eae64b9c97eb96c92b5aecc228?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
+  </router-link>
+</article>
+  </div>
+</section>
+    </main>
 
-    </section>
 
 
     <section class="flex flex-col items-center mt-32 max-md:mt-10 pb-0">
       <h2  class="text-4xl font-bold tracking-tighter leading-10 text-center text-gray-800 w-[414px]">Join our team to be a part of our story</h2>
       <p  class="mt-4 text-base leading-7 text-center text-zinc-500 w-[405px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-      <button  class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 max-md:px-5" aria-label="Join our team">Join Now</button>
+      <button  class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 hover:bg-blue-700 max-md:px-5" aria-label="Join our team">Join Now</button>
     </section>
   </main>
 </template>

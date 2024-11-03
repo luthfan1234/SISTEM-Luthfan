@@ -25,7 +25,7 @@
           </p>
           <a
             href="#"
-            class="gap-3 px-12 py-4 mt-12 mb-0 text-lg leading-none bg-blue-600 max-md:px-5 max-md:mt-10 max-md:mb-2.5"
+            class="gap-3 px-12 py-4 mt-12 mb-0 text-lg leading-none bg-blue-600 hover:bg-blue-700 max-md:px-5 max-md:mt-10 max-md:mb-2.5"
             tabindex="0"
             role="button"
           >
@@ -57,7 +57,7 @@
               <p class="mt-4 text-base leading-7 text-zinc-500 max-md:max-w-full">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
               </p>
-              <a href="#read-more" class="gap-3 px-12 py-4 mt-8 text-lg leading-none text-white bg-blue-600 max-md:px-5" tabindex="0">
+              <a href="#read-more" class="gap-3 px-12 py-4 mt-8 text-lg leading-none text-white bg-blue-600 hover:bg-blue-700 max-md:px-5" tabindex="0">
                 Read More &gt;
               </a>
             </div>
@@ -65,7 +65,7 @@
 
           <aside class="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full">
             <div class="flex flex-col grow max-md:mt-8 max-md:max-w-full">
-              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white max-md:px-5 max-md:max-w-full">
+              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white hover:bg-orange-100 max-md:px-5 max-md:max-w-full">
                 <p class="text-sm font-medium leading-none text-amber-300">
                   By <a href="#author" class="text-amber-300">John Deo</a> | Aug 23, 2021
                 </p>
@@ -74,7 +74,7 @@
                 </h3>
               </article>
 
-              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white max-md:px-5 max-md:max-w-full">
+              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white hover:bg-orange-100 max-md:px-5 max-md:max-w-full">
                 <p class="text-sm font-medium leading-none text-amber-300">
                   By <a href="#author" class="text-amber-300">John Doe</a> | Aug 23, 2021
                 </p>
@@ -83,7 +83,7 @@
                 </h3>
               </article>
 
-              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white max-md:px-5 max-md:max-w-full">
+              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white hover:bg-orange-100 max-md:px-5 max-md:max-w-full">
                 <p class="text-sm font-medium leading-none text-amber-300">
                   By <a href="#author" class="text-amber-300">John Doe</a> | Aug 23, 2021
                 </p>
@@ -92,7 +92,7 @@
                 </h3>
               </article>
 
-              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white max-md:px-5 max-md:max-w-full">
+              <article class="flex flex-col items-start py-7 pr-20 pl-8 bg-white hover:bg-orange-100 max-md:px-5 max-md:max-w-full">
                 <p class="text-sm font-medium leading-none text-amber-300">
                   By <a href="#author" class="text-amber-300">John Doe</a> | Aug 23, 2021
                 </p>
@@ -118,7 +118,7 @@
               <p class="mt-4 mr-6 leading-7 text-zinc-500 max-md:mr-2.5 max-md:max-w-full">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <a href="#read-more" class="self-start mt-7 text-lg leading-8 text-amber-300" tabindex="0">Read More &gt;</a>
+              <a href="#read-more" class="self-start mt-7 text-lg leading-8 text-amber-300 hover:text-amber-400 transition duration-150 ease-in-out" tabindex="0">Read More &gt;</a>
             </div>
           </article>
 
@@ -141,36 +141,36 @@
       <section class="flex flex-col self-stretch px-20 w-full max-md:px-5 max-md:mt-10">
       <h1 class="self-center mt-32  text-4xl font-bold tracking-tighter leading-none text-gray-800 max-md:mt-10 mb-20 justify-center">Choose A Category</h1>
       <div class="flex gap-5 max-md:flex-col">
-        <article class="flex flex-col w-3/12 max-md:w-full">
-          <div class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/business" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5305de9d9e170e8c91de03eb22dba944f5ef03ac5f3a3adb6ce52eb1ad20b4ae?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Business icon" class="object-contain w-12" />
-            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800">Business</h2>
-            <p class="mt-1 text-base leading-7 text-zinc-500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          </div>
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Business</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
 
-        <article class="flex flex-col w-3/12 max-md:w-full">
-          <div class="flex flex-col p-8 w-full bg-blue-600 max-md:px-5 max-md:mt-8">
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/startup" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c20d7479ee31a04a1a31bec00c9460459f8c90cc3f5c5157bd7d1658b5fd8f4?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Startup icon" class="object-contain w-12" />
-            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-orange-50">Startup</h2>
-            <p class="mt-1 text-base leading-7 text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          </div>
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Startup</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
 
-        <article class="flex flex-col w-3/12 max-md:w-full">
-          <div class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/economy" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f9ea4d60ffc2ac2756619e99d7cecaf8ddaeb339932b51cb8ca04f00f6fe0e1?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Economy icon" class="object-contain w-12" />
-            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800">Economy</h2>
-            <p class="mt-1 text-base leading-7 text-zinc-500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          </div>
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Economy</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
 
-        <article class="flex flex-col w-3/12 max-md:w-full">
-          <div class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8">
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/technology" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7711bc8c130ae05319b5189f87b223bc1125099c826ebd163e20da8da19f8af?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Technology icon" class="object-contain w-12" />
-            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800">Technology</h2>
-            <p class="mt-1 text-base leading-7 text-zinc-500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          </div>
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Technology</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
       </div>
     </section>
@@ -216,39 +216,39 @@
     <section class="self-stretch mt-12 max-md:mt-10 max-md:max-w-full">
       <div class="flex gap-5 max-md:flex-col">
         <article class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
+          <router-link to="/author" class="flex flex-col grow items-center px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
             <img loading="lazy" src="../assets/images/misc/orang1.png" />
-            <h3  class="mt-5 text-3xl font-bold tracking-tighter text-gray-800 text-center">Floyd Miles</h3>
-            <p  class="self-stretch text-sm text-center text-zinc-500">Content Writer @Company</p>
+            <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800 text-center">Floyd Miles</h3>
+            <p class="self-stretch text-sm text-center text-zinc-500">Content Writer @Company</p>
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ebc67470106e9d6ddb8d97607421331f6f354cb1b1e23797f2a80557f0a32123?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
+          </router-link>
         </article>
 
         <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow px-14 py-10 w-full leading-none bg-orange-50 max-md:px-5 max-md:mt-8">
+          <router-link to="/author" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
             <img loading="lazy" src="../assets/images/misc/orang2.png" alt="Dianne Russell profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold tracking-tighter text-gray-800 text-center">Dianne Russell</h3>
-            <p  class="text-sm text-center text-zinc-500 max-md:mx-1 text-center">Content Writer @Company</p>
+            <h3 class="mt-5 text-3xl font-bold tracking-tighter text-gray-800 text-center">Dianne Russell</h3>
+            <p class="text-sm text-center text-zinc-500 max-md:mx-1 text-center">Content Writer @Company</p>
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c737a15e8641608f3bbb864c62419ea81bfd3f5952df9b3d45d82271639e19e3?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
+          </router-link>
         </article>
 
         <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
+          <router-link to="/author" class="flex flex-col grow px-14 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
             <img loading="lazy" src="../assets/images/misc/orang3.png" alt="Jenny Wilson profile picture" class="object-contain self-center w-32 max-w-full rounded-full aspect-square" />
-            <h3  class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800 max-md:mx-2 self-center">Jenny Wilson</h3>
-            <p  class="text-sm text-center text-zinc-500 self-center">Content Writer @Company</p>
+            <h3 class="mt-5 text-3xl font-bold tracking-tighter text-center text-gray-800 max-md:mx-2 self-center">Jenny Wilson</h3>
+            <p class="text-sm text-center text-zinc-500 self-center">Content Writer @Company</p>
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cc55ab028047697ab5b90532579bc7397e1c0e81d75d597937d10d08edea8e56?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain self-center mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
+          </router-link>
         </article>
 
         <article class="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
-          <div  class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8">
+          <router-link to="/author" class="flex flex-col grow items-center px-11 py-10 w-full leading-none bg-zinc-100 max-md:px-5 max-md:mt-8 hover:bg-orange-100">
             <img loading="lazy" src="../assets/images/misc/orang4.png" alt="Leslie Alexander profile picture" class="object-contain w-32 max-w-full rounded-full aspect-square" />
             <h3 class="self-center mt-5 text-3xl font-bold tracking-tighter text-gray-800">Leslie Alexander</h3>
-            <p  class="text-sm text-center text-zinc-500">Content Writer @Company</p>
+            <p class="text-sm text-center text-zinc-500">Content Writer @Company</p>
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/82c7e43556de8acc2afaa42d9cd1bd37a1c091eae64b9c97eb96c92b5aecc228?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain mt-5 w-28 max-w-full aspect-[6.58]" />
-          </div>
+          </router-link>
         </article>
       </div>
     </section>
@@ -292,8 +292,8 @@
               </div>
             </div>
             <div class="flex gap-6" role="navigation" aria-label="Testimonial navigation">
-              <button aria-label="Previous testimonial"><img loading="lazy" src="../assets/images/misc/back.png" alt="" class="object-contain shrink-0 my-auto w-12 aspect-square" /></button>
-              <button aria-label="Next testimonial"><img loading="lazy" src="../assets/images/misc/next.png" alt="" class="object-contain shrink-0 my-auto w-12 aspect-square" /></button>
+              <button aria-label="Previous testimonial" class="hover:opacity-80 transition duration-150 ease-in-out"><img loading="lazy" src="../assets/images/misc/back.png" alt="" class="object-contain shrink-0 my-auto w-12 aspect-square" /></button>
+              <button aria-label="Next testimonial" class="hover:opacity-80 transition duration-150 ease-in-out"><img loading="lazy" src="../assets/images/misc/next.png" alt="" class="object-contain shrink-0 my-auto w-12 aspect-square" /></button>
             </div>
           </div>
         </article>
@@ -307,7 +307,7 @@
         <div class="text-center">
           <h2 class="text-4xl font-bold tracking-tighter leading-10 text-gray-800 w-[414px]">Join our team to be a part of our story</h2>
           <p  class="mt-4 text-base leading-7 text-zinc-500 w-[405px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-          <button  class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 max-md:px-5" aria-label="Join our team">Join Now</button>
+          <button  class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 hover:bg-blue-700 max-md:px-5" aria-label="Join our team">Join Now</button>
         </div>
       </section>
 

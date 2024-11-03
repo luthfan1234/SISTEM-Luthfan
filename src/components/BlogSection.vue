@@ -1,128 +1,133 @@
 <template>
-  <article class="flex overflow-hidden flex-col items-center px-20 py-20 bg-white max-md:px-5 max-md:py-24">
-    <header class="flex gap-4 items-start self-start ml-64 text-3xl font-bold tracking-tighter leading-none text-amber-300 max-md:ml-2.5">
-      <img loading="lazy" src="../assets/images/misc/profil.png" alt="Profile picture of Andrew Jonson" class="object-contain shrink-0 mt-1.5 w-12 rounded-full aspect-square" />
-      <div class="flex flex-col">
-        <h1 class="basis-auto opacity-[0.87]">Jonathan Vallem</h1>
-        <p  class="text-sm leading-7 text-x-darkgrey">Posted on 27th January 2022</p>
+  <section class="p-20 w-full bg-gray-100 max-md:px-5 max-md:max-w-full">
+    <div class="flex gap-5 max-md:flex-col">
+      <div class="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
+        <div class="flex flex-col items-start self-stretch my-auto w-full font-medium max-md:mt-10 max-md:max-w-full">
+          <h2 class="text-base leading-none text-gray-800 uppercase tracking-[3px]">Featured Post</h2>
+          <h3 class="self-stretch mt-5 text-4xl font-bold tracking-tighter leading-10 text-gray-800 max-md:max-w-full">Step-by-step guide to choosing great font pairs</h3>
+          <p class="mt-4 text-sm leading-none text-amber-300">
+            By <span class="text-amber-300">John Doe</span> l May 23, 2022
+          </p>
+          <p class="self-stretch mt-4 text-base leading-7 text-zinc-500 max-md:max-w-full">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          </p>
+          <router-link to="/blogpost" class="inline-block gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 hover:bg-blue-700 max-md:px-5 transition duration-150 ease-in-out" role="link">
+            Read More &gt;
+          </router-link>
+        </div>
       </div>
-    </header>
+      <div class="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
+        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c6b092768f7a218d448245a26948cf0fbc11baf915e08e348841ee64aa0cd10f?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Featured post illustration" class="object-contain grow w-full aspect-[1.43] max-md:mt-10 max-md:max-w-full" />
+      </div>
+    </div>
+  </section>
 
-    <h2 class="mt-9 text-5xl font-bold tracking-tighter text-gray-800 leading-[64px] w-[768px] max-md:max-w-full max-md:text-4xl max-md:leading-[60px]">
-      Step-by-step guide to choosing great font pairs
-    </h2>
+  <section class="flex flex-col px-20 mt-16 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <h2 class="self-start text-5xl font-bold tracking-tighter leading-none text-gray-800 max-md:text-4xl">All posts</h2>
+    <hr class="shrink-0 mt-8 h-px border border-solid bg-zinc-500 border-zinc-500 opacity-[0.32] max-md:max-w-full" />
+    <div class="mt-16 w-full max-w-[1147px] max-md:mt-10 max-md:max-w-full">
+      <div class="flex gap-5 max-md:flex-col">
+        <div class="flex flex-col w-[44%] max-md:ml-0 max-md:w-full">
+          <div class="flex flex-col grow max-md:mt-8 max-md:max-w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dafc832692f064b1e9cede46d64fbd4e375a21b3a6424516083c63b2bfa3e204?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 1" class="object-contain w-full aspect-[1.54] max-md:max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6a6ea48ae522c3bc971402c03dc63d0cb1b536800beb648e1f0e91b082b63464?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 2" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4abc41bd57d332af1d45d35539eb441fb43718ab1e3a6f58246a80a357f5bfe0?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 3" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/a31a4ef91fce621e30583ae54aa725b36189090048c6493b3ada6dc32544d50e?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 4" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/dafc832692f064b1e9cede46d64fbd4e375a21b3a6424516083c63b2bfa3e204?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Blog post image 5" class="object-contain mt-16 w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
+          </div>
+        </div>
+        <div class="flex flex-col ml-5 w-[56%] max-md:ml-0 max-md:w-full">
+          <div class="flex flex-col self-stretch my-auto text-base font-semibold leading-none text-amber-300 max-md:mt-10 max-md:max-w-full">
+            <article>
+              <h3 class="self-start uppercase tracking-[3px]">Startup</h3>
+              <h4 class="mt-5 mr-6 text-4xl font-bold tracking-tighter leading-10 text-gray-800 max-md:mr-2.5 max-md:max-w-full">Design tips for designers that cover everything you need</h4>
+              <p class="mt-4 leading-7 text-zinc-500 max-md:max-w-full">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </article>
+            <article class="mt-44 max-md:mt-10">
+              <h3 class="self-start uppercase tracking-[3px]">BUSINESS</h3>
+              <h4 class="mt-5 mr-6 text-4xl font-bold tracking-tighter leading-10 text-gray-800 max-md:mr-2.5 max-md:max-w-full">How to build rapport with your web design clients</h4>
+              <p class="mt-4 leading-7 text-zinc-500 max-md:max-w-full">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </article>
+            <article class="mt-48 max-md:mt-10">
+              <h3 class="self-start uppercase tracking-[3px]">Startup</h3>
+              <h4 class="mt-5 mr-6 text-4xl font-bold tracking-tighter leading-none text-gray-800 max-md:mr-2.5 max-md:max-w-full">Logo design trends to avoid in 2022</h4>
+              <p class="mt-4 leading-7 text-zinc-500 max-md:max-w-full">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </article>
+            <article class="mt-48 max-md:mt-10">
+              <h3 class="self-start uppercase tracking-[3px]">TECHNOLOGY</h3>
+              <h4 class="self-start mt-5 text-4xl font-bold tracking-tighter leading-10 text-gray-800 max-md:max-w-full">8 Figma design systems you can download for free today</h4>
+              <p class="mt-4 leading-7 text-zinc-500 max-md:max-w-full">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </article>
+            <article class="mt-44 max-md:mt-10">
+              <h3 class="self-start uppercase tracking-[3px]">ECONOMY</h3>
+              <h4 class="mt-5 mr-5 text-4xl font-bold tracking-tighter leading-10 text-gray-800 max-md:mr-2.5 max-md:max-w-full">Font sizes in UI design: The complete guide to follow</h4>
+              <p class="mt-4 leading-7 text-zinc-500 max-md:max-w-full">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <p class="self-start mt-9 ml-72 text-2xl font-bold leading-none text-gray-800 max-md:ml-2.5">
-      Startup
-    </p>
+  <nav class="flex gap-4 self-center mt-16 ml-auto mr-auto max-w-full font-bold text-center w-[174px] max-md:mt-10 justify-center" aria-label="Pagination">
+    <a href="#" class="grow my-auto text-2xl leading-none text-zinc-500 hover:text-gray-800 transition duration-150 ease-in-out" aria-label="Previous page">&lt; Prev</a>
+    <a href="#" class="text-3xl tracking-tighter leading-none text-gray-800 hover:text-amber-300 transition duration-150 ease-in-out" aria-label="Next page">Next &gt;</a>
+  </nav>
 
-    <img loading="lazy" src="../assets/images/misc/womanglas.png" alt="Visual representation of font pairing guide" class="object-contain self-stretch mt-16 w-full aspect-[2.2] max-md:mt-10 max-md:max-w-full" />
+  <section class="flex flex-col self-stretch px-20 w-full max-md:px-5 max-md:mt-10">
+      <h1 class="self-start mt-32  text-4xl font-bold tracking-tighter leading-none text-gray-800 max-md:mt-10 mb-20 ">All Categories</h1>
+      <div class="flex gap-5 max-md:flex-col">
 
-    <section class="mt-16 max-md:mt-10">
-      <h3 class="text-4xl font-bold tracking-tighter leading-10 text-gray-800 w-[843px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-      </h3>
-      <p class="mt-4 text-base leading-7 text-zinc-500 w-[843px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
-      </p>
-    </section>
-
-    <section class="mt-12 max-md:mt-10">
-      <h3 class="text-4xl font-bold tracking-tighter leading-10 text-gray-800 w-[837px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-      </h3>
-      <p class="mt-4 text-base leading-7 text-zinc-500 w-[837px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
-      </p>
-      <p class="mt-6 text-base leading-7 text-zinc-500 w-[843px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
-      </p>
-
-      <ul class="self-start mt-5 ml-5 list-disc space-y-4">
-      <li class="text-l font-bold leading-none text-gray-900 opacity-[0.78]">Lorem ipsum dolor sit amet</li>
-      <li class="text-l font-bold leading-none text-gray-900 opacity-[0.78]">Non blandit massa enim nec scelerisque</li>
-      <li class="text-l font-bold leading-none text-gray-900 opacity-[0.78]">Neque egestas congue quisque egestas</li>
-      </ul>
-
-      <p class="mt-4 text-base leading-7 text-zinc-500 w-[837px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
-      </p>
-    </section>
-
-    <section class="mt-16 max-md:mt-10">
-      <h3 class="text-4xl font-bold tracking-tighter leading-10 text-gray-800 w-[843px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-      </h3>
-      <p class="mt-4 text-base leading-7 text-zinc-500 w-[843px] max-md:max-w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec. Scelerisque viverra mauris in aliquam sem. At risus viverra adipiscing at in tellus. Sociis natoque penatibus et magnis dis parturient montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
-      </p>
-    </section>
-
-
-
-    <section class="mt-20 max-md:mt-10">
-      <h2 class="self-start text-4xl font-bold tracking-tighter leading-none text-black">What to read next</h2>
-
-      <div class="grid grid-cols-3 gap-5 mt-16 max-md:grid-cols-1 max-md:mt-10">
-        <article class="text-gray-800">
-          <img loading="lazy" src="../assets/images/misc/blog1.png" class="object-contain w-full aspect-[1.27]" />
-          <p class="mt-8 text-sm font-medium leading-none text-amber-300">
-            By <span>John Doe</span> l Aug 23, 2021
-          </p>
-          <h3 class="mt-4 text-3xl font-bold tracking-tighter leading-10">
-            A UX Case Study Creating a Studious Environment for Students:
-          </h3>
-          <p class="mt-4 text-base leading-7 opacity-70">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-          </p>
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/business" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/5305de9d9e170e8c91de03eb22dba944f5ef03ac5f3a3adb6ce52eb1ad20b4ae?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Business icon" class="object-contain w-12" />
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Business</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
 
-        <article class="text-gray-800">
-          <img loading="lazy" src="../assets/images/misc/blog2.png" class="object-contain w-full aspect-[1.27]" />
-          <p class="mt-8 text-sm font-medium leading-none text-amber-300">
-            By <span>John Doe</span> l Aug 23, 2021
-          </p>
-          <h3 class="mt-4 text-3xl font-bold tracking-tighter leading-10">
-            A UX Case Study Creating a Studious Environment for Students:
-          </h3>
-          <p class="mt-4 text-base leading-7 opacity-70">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-          </p>
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/startup" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c20d7479ee31a04a1a31bec00c9460459f8c90cc3f5c5157bd7d1658b5fd8f4?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Startup icon" class="object-contain w-12" />
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Startup</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
 
-        <article class="text-gray-800">
-          <img loading="lazy" src="../assets/images/misc/blog3.png" class="object-contain w-full aspect-[1.27]" />
-          <p class="mt-8 text-sm font-medium leading-none text-amber-300">
-            By <span>John Doe</span> l Aug 23, 2021
-          </p>
-          <h3 class="mt-4 text-3xl font-bold tracking-tighter leading-10">
-            A UX Case Study Creating a Studious Environment for Students:
-          </h3>
-          <p class="mt-4 text-base leading-7 opacity-70">
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-          </p>
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/economy" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f9ea4d60ffc2ac2756619e99d7cecaf8ddaeb339932b51cb8ca04f00f6fe0e1?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Economy icon" class="object-contain w-12" />
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Economy</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
+        </article>
+
+        <article class="flex flex-col w-3/12 max-md:w-full hover:text-white">
+          <a href="/blog/technology" class="flex flex-col p-8 w-full border border-solid border-zinc-500 max-md:px-5 max-md:mt-8 transition duration-150 ease-in-out hover:bg-blue-600 hover:text-white">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f7711bc8c130ae05319b5189f87b223bc1125099c826ebd163e20da8da19f8af?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="Technology icon" class="object-contain w-12" />
+            <h2 class="mt-4 text-3xl font-bold tracking-tighter text-gray-800 hover:text-white">Technology</h2>
+            <p class="mt-1 text-base leading-7 text-zinc-500 hover:text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+          </a>
         </article>
       </div>
     </section>
 
-    <hr class="shrink-0 self-stretch mt-16 h-px border border-solid opacity-30 bg-zinc-500 border-zinc-500 max-md:mt-10 max-md:max-w-full" />
+    <section class="mt-20 mb-20 max-md:mt-10 flex items-center justify-center">
+        <div class="text-center">
+          <h2 class="text-4xl font-bold tracking-tighter leading-10 text-gray-800 w-[414px]">Join our team to be a part of our story</h2>
+          <p  class="mt-4 text-base leading-7 text-zinc-500 w-[405px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <button  class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 hover:bg-blue-700 max-md:px-5" aria-label="Join our team">Join Now</button>
+        </div>
+      </section>
 
-    <section class="mt-20 text-center max-md:mt-10">
-      <h2 class="text-4xl font-bold tracking-tighter leading-10 text-gray-800 w-[414px]">
-        Join our team to be a part of our story
-      </h2>
-      <p class="mt-4 text-base leading-7 text-zinc-500 w-[405px]">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-      </p>
-      <button class="gap-3 px-12 py-4 mt-8 text-lg font-bold leading-none text-white bg-blue-600 max-md:px-5" tabindex="0">
-        Join Now
-      </button>
-    </section>
-  </article>
 </template>
 
-<style scoped>
-.builder-component {
-  max-width: none !important;
-}
-</style>
+
+
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'FeaturedPost'
+});
+</script>

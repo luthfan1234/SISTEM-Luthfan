@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import HeaderContent from '@/components/HeaderContent.vue'
 import FooterContent from '@/components/FooterContent.vue'
-import BlogSection from '@/components/BlogSection.vue';
+import AuthorComponent from '@/components/AuthorComponent.vue';
+
 
 
 
@@ -10,7 +11,8 @@ import BlogSection from '@/components/BlogSection.vue';
 <template>
   <HeaderContent/>
   <main>
-    <BlogSection/>
+    <AuthorComponent/>
+
     <slot></slot>
   </main>
   <FooterContent/>

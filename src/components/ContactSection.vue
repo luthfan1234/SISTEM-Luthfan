@@ -49,7 +49,8 @@
           <div class="flex flex-1 shrink gap-10 justify-between items-center self-stretch p-6 my-auto border border-solid basis-0 border-zinc-500 border-opacity-50 min-w-[240px] max-md:px-5">
             <label for="city" class="sr-only">City</label>
             <select id="city" name="city" class="w-full bg-transparent">
-              <option value="">City</option>
+              <option value="">Ngawi</option>
+              <option value="">Magetan</option>
             </select>
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2fd9d8e38273624b2c454ad42c7e3db3a8baa83bf4a9011a27bb1ba0114f3e3b?placeholderIfAbsent=true&apiKey=e8011a4084744e0fbb615d9ad0bac9f7" alt="" class="object-contain shrink-0 self-stretch my-auto w-2 aspect-[2]" />
           </div>
@@ -58,7 +59,7 @@
         <label for="message" class="sr-only">Message</label>
         <textarea id="message" name="message" placeholder="Message" class="gap-2.5 px-6 pt-6 pb-24 mt-5 text-base leading-7 text-gray-800 whitespace-nowrap rounded-sm border border-solid border-zinc-500 border-opacity-50 min-h-[144px] max-md:px-5 w-full" required></textarea>
 
-        <button type="submit" class="w-full px-16 py-4 mt-4 text-2xl font-bold leading-none text-white bg-blue-600 max-md:px-5 max-md:max-w-full">Send Message</button>
+        <button type="submit" class="w-full px-16 py-4 mt-4 text-2xl font-bold leading-none text-white bg-blue-600 hover:bg-blue-700 max-md:px-5 max-md:max-w-full">Send Message</button>
       </form>
     </section>
   </main>
