@@ -41,8 +41,8 @@ const router = createRouter({
       component :BlogView,
     },
     {
-      path: '/business',
-      name: 'business',
+      path: '/blog/business',
+      name: 'blog/business',
       component :CategoryView,
     },
     {
