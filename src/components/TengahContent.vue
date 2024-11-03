@@ -47,7 +47,7 @@
         <div class="flex gap-5 max-md:flex-col">
           <article class="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
             <div class="flex flex-col items-start p-8 mx-auto w-full font-bold max-md:px-5 max-md:mt-8 max-md:max-w-full">
-              <img loading="lazy" src="../assets/images/misc/Rumah.png" />
+              <img loading="lazy" src="../assets/images/misc/rumah.png" />
               <p class="mt-8 text-sm font-medium leading-none text-amber-300">
                 By <a href="#author" class="text-amber-300">John Doe</a> | May 23, 2022
               </p>
